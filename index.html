@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Personal Portfolio</h1>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="container">
+            <h2>Home</h2>
+            <p>Welcome to my personal portfolio website! Here you can find information about me, my work experience, and my projects.</p>
+        </section>
+
+        <section id="about" class="about-me container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer with a strong background in computer science. I love creating beautiful and functional websites.</p>
+            <p>Background: I have a degree in Computer Science from XYZ University.</p>
+            <p>Career Goals: My goal is to become a full-stack developer and work on innovative web applications.</p>
+            <p>Personal Interests: In my free time, I enjoy hiking, reading, and exploring new technologies.</p>
+        </section>
+
+        <section id="resume" class="resume-section container">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <h3 class="resume-title">Education</h3>
+                <p>XYZ University - B.Sc. in Computer Science</p>
+                
+                <h3 class="resume-title">Work Experience</h3>
+                <p>Web Developer at ABC Company</p>
+                
+                <h3 class="resume-title">Skills</h3>
+                <p>HTML, CSS, JavaScript, React, Node.js</p>
+                
+                <h3 class="resume-title">Certifications</h3>
+                <p>Certified Web Developer</p>
+                
+                <h3 class="resume-title">Achievements</h3>
+                <p>Developed a successful e-commerce website</p>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Portfolio Projects</h2>
+            <div class="grid-container">
+                <div class="project">
+                    <h3 class="project-title">Project 1</h3>
+                    <img src="project1.jpg" alt="Project 1 Image">
+                    <p class="project-description">A web application for managing tasks.</p>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 2</h3>
+                    <img src="project2.jpg" alt="Project 2 Image">
+                    <p class="project-description">An e-commerce website for selling products online.</p>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 3</h3>
+                    <img src="project3.jpg" alt="Project 3 Image">
+                    <p class="project-description">A portfolio website to showcase my work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-media">
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Personal Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
